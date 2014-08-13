@@ -1,8 +1,8 @@
 {
-  "name": "lorem-ipsum",
+  "name": "lorem-hipsum",
   "version": "1.0.1",
-  "description": "Generates passages of lorem ipsum text suitable for use as placeholder copy in web pages, graphics, and more.",
-  "author": "Nickolas Kenyeres <nkenyeres@gmail.com> (http://knicklabs.github.com)",
+  "description": "Generates passages of lorem hipsum text",
+  "author": "Petar Bojinov <petarbojinov@gmail.com> (http://pbojinov.github.com)",
   "license": "MIT/X11",
   "main": "./lib/generator",
   "dependencies": {
@@ -13,14 +13,14 @@
   },
   "optionalDependencies": {},
   "bin": {
-    "lorem-ipsum": "bin/lorem-ipsum.bin.js"
+    "lorem-ipsum": "bin/lorem-hipsum.bin.js"
   },
   "scripts": {
     "test": "nodeunit test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/knicklabs/node-lorem-ipsum.git"
+    "url": "git://github.com/pbojinov/node-lorem-hipsum.git"
   },
   "keywords": [
     "lorem",
