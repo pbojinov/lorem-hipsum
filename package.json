@@ -1,6 +1,6 @@
 {
   "name": "lorem-hipsum",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generates passages of lorem hipsum text",
   "author": "Petar Bojinov <petarbojinov@gmail.com> (https://github.com/pbojinov)",
   "license": "MIT/X11",
