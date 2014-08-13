@@ -1,6 +1,6 @@
 {
   "name": "lorem-hipsum",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generates passages of lorem hipsum text",
   "author": "Petar Bojinov <petarbojinov@gmail.com> (https://github.com/pbojinov)",
   "license": "MIT/X11",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/pbojinov/node-lorem-hipsum.git"
+    "url": "git://github.com/pbojinov/lorem-hipsum.git"
   },
   "keywords": [
     "lorem",
