@@ -1,6 +1,6 @@
-### LoremHipsum.js
+### lorem-hipsum
 
-LoremHipsum.js is a Node.js and Component.js module for generating passages of lorem hipsum text. lorem hipsum text is commonly used as placeholder text in publishing, graphic design, and web development.
+> lorem-hipsum is a npm module for generating passages of lorem hipsum text. lorem hipsum text is **not** commonly used as placeholder text in publishing, graphic design, and web development, but should be.
 
 ### Why Fork?
 
@@ -8,20 +8,20 @@ We all love lorem ipsum but deep down insdie we know it's not the [artisanal fil
 
 ### Getting Started
 
-Install the LoremHipsum.js npm module
+Install the lorem-hipsum npm module
 ```bash
 cd ~/MyProject
 npm install lorem-hipsum
 ```
 
-Require the LoremHipsum.js module and use it to generate a passage of lorem hipsum text.
+Require the lorem-hipsum module and use it to generate a passage of lorem hipsum text.
 
 ```javascript
 var LoremHipsum = require('lorem-hipsum'), 
     output = LoremHipsum();
 ```
 
-### Customizing the Output with Options (Node.js)
+### Customizing the Output with Options (node.js)
 
 You can pass options to the LoremHipsum() function to fine-tune the output. The API is the same on client and server. See below: 
 
@@ -40,9 +40,9 @@ output = LoremHipsum({
 });
 ```
 
-### Using the CLI (Node.js)
+### Using the CLI (node.js)
 
-LoremHipsum.js includes a command line interface for generating passages of lorem hipsum text. Install the module globally to take advantage of this feature.
+lorem-hipsum includes a command line interface for generating passages of lorem hipsum text. Install the module globally to take advantage of this feature.
 
 ```bash
 npm install lorem-hipsum --global
@@ -95,9 +95,11 @@ lorem-hipsum 5 paragraphs --copy --format html
 
 ### Shoutouts
 
-Special thanks for [@boohah](https://github.com/boogah) for doing a dump of the [http://hipsum.co](http://hipsum.co) database.
+Special thanks for [@boohah](https://github.com/boogah) for doing a dump of the [http://hipsum.co](http://hipsum.co) database on his [gist](https://gist.github.com/boogah/2e880e0f99823a84f61d)
 
-And of course to [@hipsum_](https://twitter.com/hipsum_), with whom this wouldn't exist without.
+To [@hipsum_](https://twitter.com/hipsum_) for the artisanal corpus.
+
+And to [@knicklabs](https://github.com/knicklabs) for all of the heavy lifting and original module.
 
 ### License
 
