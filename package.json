@@ -1,6 +1,6 @@
 {
   "name": "lorem-hipsum",
-  "version": "1.0.1",
+  "version": "0.1.0",
   "description": "Generates passages of lorem hipsum text",
   "author": "Petar Bojinov <petarbojinov@gmail.com> (http://pbojinov.github.com)",
   "license": "MIT/X11",
@@ -9,9 +9,9 @@
     "optimist": "~0.3.5"
   },
   "devDependencies": {
-    "alea": "0.0.9"
+    "alea": "0.0.9",
+    "nodeunit": "^0.9.0"
   },
-  "optionalDependencies": {},
   "bin": {
     "lorem-ipsum": "bin/lorem-hipsum.bin.js"
   },
@@ -24,11 +24,10 @@
   },
   "keywords": [
     "lorem",
-    "ipsum",
+    "hipsum",
     "placeholder",
     "text",
-    "dummy",
-    "filler"
+    "lipsum"
   ],
   "engine": {
     "node": ">=0.4"
