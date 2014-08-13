@@ -17,17 +17,17 @@ npm install lorem-hipsum
 Require the lorem-hipsum module and use it to generate a passage of lorem hipsum text.
 
 ```javascript
-var LoremHipsum = require('lorem-hipsum'), 
-    output = LoremHipsum();
+var loremHipsum = require('lorem-hipsum'), 
+    output = loremHipsum();
 ```
 
 ### Customizing the Output with Options (node.js)
 
-You can pass options to the LoremHipsum() function to fine-tune the output. The API is the same on client and server. See below: 
+You can pass options to the loremHipsum() function to fine-tune the output. The API is the same on client and server. See below: 
 
 ```javascript
 ...
-output = LoremHipsum({
+output = loremHipsum({
   count: 1,                      // Number of words, sentences, or paragraphs to generate.
   units: 'sentences',            // Generate words, sentences, or paragraphs.
   sentenceLowerBound: 5,         // Minimum words per sentence.

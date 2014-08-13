@@ -1,5 +1,5 @@
-var loremIpsum = require('./lib/generator'),
-    output = loremIpsum({
+var loremHipsum = require('./lib/generator'),
+    output = loremHipsum({
         count: 1, // Number of words, sentences, or paragraphs to generate.
         units: 'sentences', // Generate words, sentences, or paragraphs.
         sentenceLowerBound: 5, // Minimum words per sentence.
