@@ -1,4 +1,4 @@
-### lorem-hipsum
+## lorem-hipsum
 
 > lorem-hipsum is a npm module for generating passages of lorem hipsum text. lorem hipsum text is **not** commonly used as placeholder text in publishing, graphic design, and web development, but should be.
 
@@ -8,10 +8,9 @@ We all love lorem ipsum but deep down insiie we know it's not the [artisanal fil
 
 ### Getting Started
 
-Install the lorem-hipsum npm module
+Install the lorem-hipsum npm module locally in your project
 ```bash
-cd ~/MyProject
-npm install lorem-hipsum
+npm install lorem-hipsum --save-dev
 ```
 
 Require the lorem-hipsum module and use it to generate a passage of lorem hipsum text.
@@ -21,12 +20,16 @@ var loremHipsum = require('lorem-hipsum'),
     output = loremHipsum();
 ```
 
-### Customizing the Output with Options (node.js)
+### Options
 
-You can pass options to the loremHipsum() function to fine-tune the output. The API is the same on client and server. See below: 
+You can customize the output with options.
+
+Pass the options to the `loremHipsum()` function to fine-tune the output. The API is the same programatically and on the CLI. See below: 
 
 ```javascript
-...
+var loremHipsum = require('lorem-hipsum'), 
+    output = loremHipsum();
+
 output = loremHipsum({
   count: 1,                      // Number of words, sentences, or paragraphs to generate.
   units: 'sentences',            // Generate words, sentences, or paragraphs.
@@ -40,7 +43,7 @@ output = loremHipsum({
 });
 ```
 
-### Using the CLI (node.js)
+### Using it globally from the CLI
 
 lorem-hipsum includes a command line interface for generating passages of lorem hipsum text. Install the module globally to take advantage of this feature.
 
@@ -51,7 +54,7 @@ npm install lorem-hipsum --global
 Execute the statement `lorem-hipsum` from your terminal to generate a passage of lorem hipsum text. You can pass arguments to the program to fine-tune the output.
 
 ```bash
-lorem-hipsum --units words --count 100 --copy --format html
+lorem-hipsum --units words --count 100 --copy
 ```
 
 See below for a description of the arguments to the program.
@@ -105,10 +108,4 @@ And to [@knicklabs](https://github.com/knicklabs) for all of the heavy lifting a
 
 This software is licensed under the MIT license.
 
-Copyright (c) 2012-2014 Nickolas Kenyeres
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Copyright (c) 2015 Petar Bojinov
