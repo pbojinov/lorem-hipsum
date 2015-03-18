@@ -58,7 +58,6 @@ lorem-hipsum --units words --count 100 --copy
 
 Or using the shorthand way to easily copy a sentence to your clipboard.
 
-```
 ```bash
 hipsum  --copy
 ```
