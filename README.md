@@ -55,6 +55,12 @@ Execute the statement `lorem-hipsum` from your terminal to generate a passage of
 
 ```bash
 lorem-hipsum --units words --count 100 --copy
+
+Or using the shorthand way to easily copy a sentence to your clipboard.
+
+```
+```bash
+hipsum  --copy
 ```
 
 See below for a description of the arguments to the program.
