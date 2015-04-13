@@ -4,7 +4,7 @@
 
 ### Why Fork?
 
-We all love lorem ipsum but deep down insiie we know it's not the [artisanal filter text](http://hipsum.co/) we really crave.
+We all love lorem ipsum but deep down inside we know it's not the [artisanal filter text](http://hipsum.co/) we really crave.
 
 ### Getting Started
 
